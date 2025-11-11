@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width:80vw;
+    font-family:"Ubuntu", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+    height: 155px;
+    margin-top: 190px;
+}
+
+.topright{
+    width: 50%;
+    height: 155px;
+}
+
+.section1{
+    max-height: 100vh;
+    height: 50vh;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbbellimg{
+    width: 150px;
+}
+
+.topright .gymimg{
+    width: 666px;
+    height: 500px;
+}
+
+.section2{
+    margin-top: 350px;
+    height: 100vh;
+    padding-left: 63px;
+    padding-right:63px ;
+}
+.section2 h1{
+    font-size: 2.5rem;
+}
+
+.section2 h4{
+    margin-top: 15px;
+    
+}
+
+.section2 p{
+    margin-top: 6px;
+    padding: 0 5vw;
+    text-align: center;
+}
+
+.box{
+    padding: 5px 2px;
+    margin: 12px 22px;
+    min-width:20vw;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.section3{
+    height: 100vh;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+footer{
+    padding: 21px;
+    text-align: center;
+}
